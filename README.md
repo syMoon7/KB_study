@@ -11,6 +11,8 @@
 저희는 (추후 회의로 결정할 내용) 정기적 스터디를 진행할 예정입니다.
 같이 공부하고 싶은 날, 언제든 편하게 입장해주세요 😊
 
+👉 [Webex 스터디룸 바로가기](https://meet1576.webex.com/meet/pr26402902839)
+
 👉 [ZOOM 스터디룸 바로가기](https://us05web.zoom.us/j/7768557399?pwd=eAwLGtB49gKbaalm5eb6LPC0xcBT3N.1)
 
 👉 [ZEP 스터디룸 바로가기](https://zep.us/play/r7EOld?secret=202020)
