@@ -50,8 +50,9 @@
   - DML : 데이터 조작
   - DCL : 데이터 제어
   - TCL : 트랜잭션 제어
-    ![DDL,DML](./images/SQL1.png)
-    ![DCL,TCL](./images/SQL2.png)
+    
+  ![DDL,DML](./images/SQL1.png)
+  ![DCL,TCL](./images/SQL2.png)
 
 ## 1-3. 파일 대신 데이터베이스를 이용하는 이유
 
@@ -157,9 +158,8 @@
 ## 2-1. 테이블의 구성: 필드와 레코드
 
 ### 1. 필드 타입 과 키
-
+![필드타입](./images/fieldType.png)
 - 필드 타입 : 필드로 사용 가능한 데이터 유형
-  ![필드타입](./images/fieldType.png)
 - 키 : 테이블 내의 특정 레코드를 식별할 수 있는 필드의 집합
   - 테이블 간의 참조에도 사용된다.
 
