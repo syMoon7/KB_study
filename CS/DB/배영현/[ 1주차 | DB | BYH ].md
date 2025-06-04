@@ -50,9 +50,8 @@
   - DML : 데이터 조작
   - DCL : 데이터 제어
   - TCL : 트랜잭션 제어
-    
-  ![DDL,DML](./images/SQL1.png)
-  ![DCL,TCL](./images/SQL2.png)
+  ![DDL,DML](./images/DB/week1/SQL1.png)
+  ![DCL,TCL](./images/DB/week1/SQL2.png)
 
 ## 1-3. 파일 대신 데이터베이스를 이용하는 이유
 
@@ -83,7 +82,7 @@
 
 ### 1. 데이터베이스의 저장 단위 및 용어들
 
-![릴레이션 용어 설명](./images/RelationWord.png)
+![릴레이션 용어 설명](./images/DB/week1/RelationWord.png)
 
 [https://velog.io/@suker80/day8.-데이터베이스의-차수와-카디널리티](https://velog.io/@suker80/day8.-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%9D%98-%EC%B0%A8%EC%88%98%EC%99%80-%EC%B9%B4%EB%94%94%EB%84%90%EB%A6%AC%ED%8B%B0)
 
@@ -158,7 +157,9 @@
 ## 2-1. 테이블의 구성: 필드와 레코드
 
 ### 1. 필드 타입 과 키
-![필드타입](./images/fieldType.png)
+
+![필드타입](./images/DB/week1/fieldType.png)
+
 - 필드 타입 : 필드로 사용 가능한 데이터 유형
 - 키 : 테이블 내의 특정 레코드를 식별할 수 있는 필드의 집합
   - 테이블 간의 참조에도 사용된다.
@@ -195,24 +196,24 @@
 ### 1. 일대일 대응 관계
 
 - 하나의 레코드가 다른 테이블의 레코드 하나에만 대응되는 경우
-  ![일대일 대응 관계](./images/1to1.png)
+  ![일대일 대응 관계](./images/DB/week1/1to1.png)
 
 ### 2. 일대다 대응 관계
 
 - 하나의 레코드가 다른 테이블의 여러 레코드와 대응될 수 있는 경우
   - 예시) 내가 주문한 물건을 확인해볼 때, 나 1명에 여러 물건이 있는 경우를 생각해볼 수 있다.
   - 또 다른 예시) 1명의 교수가 여러 과목을 강의하는 경우를 생각해 볼 수 있다.
-    ![일대다 대응 관계](./images/1toMany.png)
+    ![일대다 대응 관계](./images/DB/week1/1toMany.png)
 
 ### 3. 다대다 대응 관계
 
 - 한 테이블의 여러 레코드가 다른 테이블의 여러 레코드와 대응되는 경우
   - 예시) 각 사용자가 여러 그룹에 가입할 수 있고, 각 그룹에는 여러 사용자가 속하는 경우
-    ![다대다 대응 관계](./images/manyTomany.png)
+    ![다대다 대응 관계](./images/DB/week1/manyTomany.png)
 - 일반적으로 중간 테이블을 수반한다.
   - 왜?
     - 중간 테이블에 대한 일대다 대응이 2번 이루어진 것과 동일하기 때문이다.
-      ![중간테이블](./images/middleTbl.png)
+      ![중간테이블](./images/DB/week1/middleTbl.png)
 
 ## 2-3. 무결성 제약 조건 ⭐️⭐️
 
@@ -230,7 +231,7 @@
     - 지정된 필드 타입을 준수해야 한다.
     - 값의 범위나 기본값이 지정되면 이를 따라야 한다.
 
-![도메인 제약 조건](./images/domain.png)
+![도메인 제약 조건](./images/DB/week1/domain.png)
 
 ### 2. 키 제약 조건
 
