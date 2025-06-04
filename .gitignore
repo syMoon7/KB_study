@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+
+# 로그 파일
+*.log
+
+# 환경 변수
+.env
+
+# 빌드 파일
+dist/
+build/
