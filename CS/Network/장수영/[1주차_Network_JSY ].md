@@ -1,4 +1,4 @@
-# [ 1주차 | Network | JSY ]
+# [ 1주차_Network_JSY ]
 
 # 🖥️네트워크
 
